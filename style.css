@@ -20,6 +20,13 @@ body {
     background-color: var(--color-bg-second);
 }
 
+header {
+    background: url('https://loremflickr.com/cache/resized/65535_52011334915_92950401b5_h_1200_300_nofilter.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+
+    min-height: 250px;
+}
 
 
 
