@@ -1,0 +1,116 @@
+:root {
+    --color-bg-primary: #F06C6C;
+    --color-bg-second: #F2F2F2;
+    --color-primary: #301515;
+    --padding-els: calc(100% - 1.3em);
+    --color-bg-article: #FFFFFF;
+    --font-size-normal: 1.4em;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-bg-second);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* header start */
+    header {
+        background: url('https://loremflickr.com/cache/resized/65535_52011334915_92950401b5_h_1200_300_nofilter.jpg') center center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+
+        min-height: 250px;
+    }
+
+    header>h1 {
+        background-color: var(--color-bg-primary);
+        text-align: center;
+    }
+
+    header blockquote {
+        font-size: 3em;
+        color: rgba(255, 255, 255, .9);
+        text-align: center;
+
+        font-weight: 900;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--color-bg-primary);
+        padding: 0 1.2em;
+    }
+
+    nav ul>li {
+        display: inline-block;
+        list-style: none;
+        font-size: 1.8em;
+        padding-left: .8em;
+    }
+
+    /* header end */
+
+    /* main start */
+    main {
+        min-height: 60vh;
+        width: 80%;
+        margin: auto;
+    }
+
+    section {
+        margin: 1.6em 0;
+    }
+
+    section>p {
+        line-height: 1.5ch;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+    }
+
+    article {
+        width: 100%;
+        background-color: var(--color-bg-article);
+        height: 15vh;
+        margin: .8em;
+        border-radius: .5em;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
+        display: inline-block;
+        line-height: 15vh;
+        padding: 0 .5em;
+        font-size: var(--font-size-normal);
+        font-weight: bold;
+    }
+
+    /* main end  */
+
+
+    /* footer start */
+    footer {
+        background-color: var(--color-bg-primary);
+        /* position: fixed; */
+        bottom: 0;
+
+        width: 100%;
+    }
+
+    footer>p {
+        color: var(--color-primary);
+        font-size: var(--font-size-normal);
+    }
+
+    /* footer end */
+}
