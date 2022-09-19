@@ -42,12 +42,13 @@ body {
         padding: 0 1.2em;
     }
 
-    header blockquote {
+    blockquote {
         font-size: 6em;
         color: rgba(255, 255, 255, .9);
         text-align: center;
         padding: .5em 0;
         font-weight: 900;
+        z-index: 6;
     }
 
     nav {
@@ -72,6 +73,10 @@ body {
         min-height: 60vh;
         width: 80%;
         margin: auto;
+    }
+
+    blockquote img {
+        display: none;
     }
 
     section {
