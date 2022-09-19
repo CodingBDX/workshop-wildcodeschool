@@ -1,4 +1,4 @@
-@import url(media_query_phone_screen.css);
+@import url("media_query_phone_screen.css");
 
 :root {
     --color-bg-primary: #F06C6C;
